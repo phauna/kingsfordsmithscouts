@@ -1,0 +1,50 @@
+div#leaders{
+	margin:0.8em 0em 0em;
+}
+
+div#leaders div{
+	margin:0.4em 0em;
+	font-size:0.8em;
+}
+
+div.committee {
+	background-color:#412213;
+	float:left;
+	width:100%;
+	color:#fff;
+	line-height:2em;
+	padding:0em 0.4em;
+	
+}
+
+
+div.leaders {
+	background-color:#412213;
+	float:left;
+	width:100%;
+	color:#fff;
+	line-height:2em;
+	padding:0em 0.4em;
+	
+}
+
+div.times {
+	background-color:#412213;
+	float:left;
+	width:40%;
+	color:#fff;
+	line-height:2em;
+	padding:0em 0.4em;
+	
+}
+
+div.name{
+	float:left;
+	width:65%
+}
+
+div.phone_number{
+	float:left;
+	width:35%;
+}
+

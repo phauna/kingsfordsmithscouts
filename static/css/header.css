@@ -1,0 +1,25 @@
+div#header {
+	background-color: #d7ded8;
+	padding:0.5em 0.5em;
+	margin: 0em 0em 0.5em;
+	height: 6em;
+}
+
+div#header a {
+	color:#324234;
+	font-weight:normal;
+}
+
+div#header a:hover {
+	color:#2c7432;
+}
+
+div#header h6 {
+	color:#2c7432;
+}
+
+div#header img {
+	height: 80px;
+	float: right;
+	padding-top: 0.5em;
+}

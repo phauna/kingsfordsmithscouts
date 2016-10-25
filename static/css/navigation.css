@@ -1,0 +1,94 @@
+
+
+
+
+/*  Suffixes j, c, and s refer to Joeys, Cubs and Scouts. */
+
+
+
+
+div#navigation{
+	background-color:#412213;
+	margin:0.4em 0em 0em;	
+	float:left;
+	width:100%;
+	padding:0.1em 0em;
+	font-size: 0.9em;
+}
+
+div#navigationj{
+	background: #B65518;
+	float:left;
+	width:100%;
+	padding:0.1em 0em 0.1em 0;
+	font-size: 0.8em;
+}
+
+div#navigationc{
+	background: #FFC82E;
+	float:left;
+	width:100%;
+	padding:0.1em 0em 0.1em 0;
+	font-size: 0.8em;
+}
+
+div#navigations{
+	background: #00AE42;
+	float:left;
+	width:100%;
+	padding:0.1em 0em 0.1em 0;
+	font-size: 0.8em;
+}
+
+div.float{
+	margin: -0.1em 0 -0.1em 0;
+	line-height:2em;
+	float:left;
+	position:relative;
+	width: 11.1111%;
+	text-align: center;
+}
+
+div.floatj{
+	margin: -0.1em 0 -0.1em 0;
+	line-height:2em;
+	float:left;
+	position:relative;
+	width: 33.3333%;
+	text-align: center;
+}
+
+div.floatc{
+	margin: -0.1em 0 -0.1em 0;
+	line-height:2em;
+	position: relative;
+	float:left;
+	width: 16.6666%;
+	text-align: center;
+}
+
+div.floats{
+	margin: -0.1em 0 -0.1em 0;
+	line-height:2em;
+	float:left;
+	position:relative;
+	width: 16.6666%;
+	text-align: center;
+}
+
+div.float a, div.floatj a, div.floatc a, div.floats a {
+	color:#ffffff;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	display:block;
+	font-weight:normal;
+}
+
+div.float a:hover, div.floatj a:hover, div.floatc a:hover, div.floats a:hover {
+	color:#ffffff;
+	background-color:#584941;
+}
+
+
+
+

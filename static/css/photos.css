@@ -1,0 +1,21 @@
+div.photos {
+	float: left;
+	margin: 1em 1em;
+}
+
+div.photos a {
+	color:#412213;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+div.photos a:hover {
+	color:#E5733B;
+}
+
+div.photos img {
+	margin:1px 0 0 4px;
+	width:160px;
+	height:160px;
+}
+
