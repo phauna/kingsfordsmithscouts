@@ -1,123 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8"/>
 		
-		<title>Photos - Kingsford Smith Scout Group</title>
+		<title>Photos - Kingsford-Smith Scout Group</title>
+		
+		<meta name="description=" content="Kingsford-Smith Scout Group">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
-		<link href="css/header.css" rel="stylesheet" type="text/css" />
+
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link href="css/navigation.css" rel="stylesheet" type="text/css" />
-		<link href="css/photos.css" rel="stylesheet" type="text/css" />
-		
-		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-		
-		<link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="jquery.nanogallery.min.js"></script>
-		
-		<script type="text/javascript">
-			$(document).ready(function () {
-				$("#nanoGallery2").nanoGallery({
-				
-					thumbnailWidth: 250,
-					thumbnailHeight: 250,
-				
-					kind: 'picasa',
-					userID: '102867815547473782268',
-					
-					colorScheme: 'light',
-					thumbnailHeight: 290,
-					thumbnailWidth: 'auto',
-					thumbnailGutterWidth: 0,
-					thumbnailGutterHeight: 0,
-					thumbnailLabel: {hideIcons: true, position: 'overImageOnBottom', align: 'center'}
-					
-				});
-			});
-		</script>
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  
+		<!-- nanogallery2 -->
+		<link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
 		
 	</head>
 
 	<body>
-    
-		<div id="header">
-			<img src="images/header/scouts_green.jpg" style="height: 80px; float: right" />
-			<h1><a href="index.html" title="home">Kingsford Smith Scout Group</a></h1>
-		</div>
-					
-		<div id="photo">
-			<img src="images/header/photos_header.jpg" style="height: 12.5em; width:50em" />      
-		</div>
 
-		<div id="navigation">
-			<div class="float">
-				<a href="index.html">Home</a>
-			</div>
-			
-			<div class="float">
-				<a href="Joeys/Joeys.html">Joeys</a>                   
-			</div>
-			
-			<div class="float">
-					<a href="Cubs/Cubs.html">Cubs</a>						
-			</div>
-			
-			<div class="float">
-				<a href="Scouts/Scouts.html">Scouts</a>				
-			</div>
-			
-			<div class="float">
-				<a href="calendar.html">Calendar</a>
-			</div>
+			<header>
+				<div class="flex-container title">
+					<div>
+						<h1><a href="index.html">Kingsford-Smith Scout Group</a></h1>
+					</div>
 				
-            <div class="float">
-				<a href="photos.html">Photos</a>
-			</div>
-			
-			<div class="float">
-				<a href="Contact_Us.html">Contact</a>
-			</div>
-			
-			<div class="float">
-				<a href="links.html">Links</a>
-			</div>
-
-			<div class="float">
-				<a href="about_us.html">About</a>
-			</div>
-		</div>
-           
-		<div class="clear"></div>
+					<div>
+						<img id="crest" src="images/header/scouts_green.jpg" alt="Scout logo">
+					</div>
+				</div>
+	
+			</header>
+	
+			<main>
+				
+				<img id="banner" src="images/header/photos_header.jpg" alt="Campfire">
+	
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav nav-fill w-100 align-items-start">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li id="joeynav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Joeys</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Joeys/Joeys.html">Who are Joeys?</a>
+									<a class="dropdown-item" href="Joeys/Joey_Award_Scheme.html">Participation Badges</a>
+									<a class="dropdown-item" href="Joeys/Joey_Law_Promise.html">Law and Promise</a>
+									<a class="dropdown-item" href="Joeys/Joeys_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="cubnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cubs</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Cubs/Cubs.html">Who are Cubs?</a>
+									<a id="bronze" class="dropdown-item" href="Cubs/BronzeBoomerang.html">Bronze Boomerang</a>
+									<a id="silver" class="dropdown-item" href="Cubs/SilverBoomerang.html">Silver Boomerang</a>
+									<a id="gold" class="dropdown-item" href="Cubs/GoldBoomerang.html">Gold Boomerang</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Achievement.html">Achievement Badges</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="scoutnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scouts</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Scouts/Scouts.html">Who are Scouts?</a>
+									<a id="pioneer" class="dropdown-item" href="Scouts/Pioneer_Cord.html">Pioneer Badge</a>
+									<a id="explorer" class="dropdown-item" href="Scouts/Explorer_Cord.html">Explorer Badge</a>
+									<a id="adventurer" class="dropdown-item" href="Scouts/Adventurer_Cord.html">Adventurer Badge</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Proficiency.html">Proficiency Badges</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="calendar.html">Calendar</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="photos.html">Photos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Contact_Us.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="links.html">Links</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about_us.html">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
        
-		<div id="main">
+			<div class="well">
 			
-			<h2>Photos</h2>
-			<br/>
-			
-			<a href="http://www.youtube.com/c/KingsfordsmithOrgAuScouts" target="new"><img id="badge" src="images/kingsford_smith_youtube.jpg" style="margin-top: -1.3em; margin-right: 2.5em; height: 6em"></a>
-			<p>We also have some videos on the <a href="http://www.youtube.com/c/KingsfordsmithOrgAuScouts" target="new">Kingsford Smith Scout Group Youtube channel.</a></p>
-			<br/>
-			<br/>
-			<br/>
-			
-		<div class="clear"></div>
-			
-			<div id="nanoGallery2">
-			
-			</div>
-			
-		</div>	
+				<h3>Videos</h3>
+				<br>
 
-		<div class="clear"></div>
+				<div id="ytplayerContainer">
+					<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/?listType=playlist&list=PLwWFVTexo9K3FJDSqAEUcV8W2OQEXX4QT&modestbranding=1"
+frameborder="0" allowfullscreen></iframe>
+				</div>
+				<br>
+				<br>
 
-		<div class="footer">
-			<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
-		</div>   
+				<h3>Photos</h3>
+				<br>
+
+				<div id="my_nanogallery2" data-nanogallery2='{"userID": "148525322@N05", 
+					"kind": "flickr", 
+					"thumbnailWidth": "auto", 
+					"colorScheme": "light", 
+					"thumbnailLabel": {"titleMultiLine": true, "displayDescription": true, "descriptionMultiLine": true}, 
+					"thumbnailHeight": "290", 
+					"thumbnailDisplayInterval": 30,
+					"thumbnailBorderHorizontal": 0, 
+					"thumbnailBorderVertical": 0, 
+					"thumbnailGutterWidth": 2,
+					"thumbnailGutterHeight": 2, 
+					"displayBreadcrumb": true}' >
+				</div>
+
+			</div>	
+
+			<footer>
+				<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
+			</footer>
+		</main>  
 		
 	</body>
 </html>

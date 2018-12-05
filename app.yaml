@@ -1,5 +1,4 @@
-application: kingsfordsmithscouts2015
-version: 35
+
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -8,11 +7,14 @@ handlers:
 - url: /
   static_files: static/index.html
   upload: static/index.html
+  secure: always
 
 - url: /default.aspx
   static_files: static/index.html
   upload: static/index.html
+  secure: always
 
 - url: /
   static_dir: static/
+  secure: always
 

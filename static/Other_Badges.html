@@ -1,178 +1,675 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Other Badges - Kingsford Smith Scout Group</title>
+		<meta charset="utf-8"/>
 		
-		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+		<title>Other Badges - Kingsford-Smith Scout Group</title>
 		
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
-		<link href="css/header.css" rel="stylesheet" type="text/css" />
+		<meta name="description=" content="Kingsford-Smith Scout Group">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link href="css/navigation.css" rel="stylesheet" type="text/css" />
+
 	</head>
 
 	<body>
-		<div id="header">
-			<img src="images/header/scouts_green.jpg" style="height: 80px; float: right">
-			<h1><a href="index.html" title="home">Kingsford Smith Scout Group</a></h1>
-		</div>
 
-		<div id="photo">
-			<img src="images/header/joeys_resources_header.jpg" /> 
-		</div>
-
-		<div id="navigation">
-			<div class="float">
-				<a href="index.html">Home</a>
-			</div>
-			
-			<div class="float">
-				<a href="Joeys/Joeys.html">Joeys</a>                    
-			</div>
-			
-			<div class="float">
-				<a href="Cubs/Cubs.html">Cubs</a>
-			</div>
-			
-			<div class="float">
-				<a href="Scouts/Scouts.html">Scouts</a>					
-			</div>
-			
-			<div class="float">
-				<a href="calendar.html">Calendar</a>
-			</div>
-			
-            <div class="float">
-				<a href="photos.html">Photos</a>
-			</div>
-			
-			<div class="float">
-				<a href="Contact_Us.html">Contact</a>
-			</div>
-			
-			<div class="float">
-				<a href="links.html">Links</a>
-			</div>
-			
-			<div class="float">
-				<a href="about_us.html">About</a>
-			</div>
-		</div>
-		
-		
-           
-		<div class="clear"></div>
+			<header>
+				<div class="flex-container title">
+					<div>
+						<h1><a href="index.html">Kingsford-Smith Scout Group</a></h1>
+					</div>
+				
+					<div>
+						<img id="crest" src="images/header/scouts_green.jpg" alt="Lots of tents at a campsite">
+					</div>
+				</div>
+	
+			</header>
+	
+			<main>
+				
+				<img id="banner" src="images/header/multi_section_badges.jpg" alt="Multi section badges header">
+	
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav nav-fill w-100 align-items-start">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li id="joeynav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Joeys</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Joeys/Joeys.html">Who are Joeys?</a>
+									<a class="dropdown-item" href="Joeys/Joey_Award_Scheme.html">Participation Badges</a>
+									<a class="dropdown-item" href="Joeys/Joey_Law_Promise.html">Law and Promise</a>
+									<a class="dropdown-item" href="Joeys/Joeys_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="cubnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cubs</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Cubs/Cubs.html">Who are Cubs?</a>
+									<a id="bronze" class="dropdown-item" href="Cubs/BronzeBoomerang.html">Bronze Boomerang</a>
+									<a id="silver" class="dropdown-item" href="Cubs/SilverBoomerang.html">Silver Boomerang</a>
+									<a id="gold" class="dropdown-item" href="Cubs/GoldBoomerang.html">Gold Boomerang</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Achievement.html">Achievement Badges</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="scoutnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scouts</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Scouts/Scouts.html">Who are Scouts?</a>
+									<a id="pioneer" class="dropdown-item" href="Scouts/Pioneer_Cord.html">Pioneer Badge</a>
+									<a id="explorer" class="dropdown-item" href="Scouts/Explorer_Cord.html">Explorer Badge</a>
+									<a id="adventurer" class="dropdown-item" href="Scouts/Adventurer_Cord.html">Adventurer Badge</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Proficiency.html">Proficiency Badges</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="calendar.html">Calendar</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="photos.html">Photos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Contact_Us.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="links.html">Links</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about_us.html">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
        
-		<div id="main">   
-			<div id="container">
-				<div id="sidebarj"></div>
-				<div id="sidebarc"></div>
-				<div id="sidebars"></div>
-					<div id="content">
+			<div class="multi well">
 					
-						<h2>Multiple Section Badges</h2>
-													
-						<div id="camper"></div>	
-						<br/>
-						<br/>
+				<h3>Multiple Section Badges and others</h2>
+
+				<h4 id="camper">Camper Award Badge</h4>
+					
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Camper_10_nights.png" style="transform: none">		
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Camper_25_nights.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Camper_50_nights.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Camper_75_nights.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Camper_100_nights.png" style="transform: none">	
+
+				<p>(Joeys / Cubs / Scouts)</p>
+				
+				<p>The Camper Award Badge depicts the total number of nights spent camping while on approved Scouting activities. (School camps and family holidays don't count.) They may be worn above the pocket of the uniform below the World Badge.</p>
+			
+				<p>The requirements for the badge can be started at the Joey Scout level and continue to be added through to the Rover Scout section. The number of nights camped can be recorded on Scout Central. Some Record Books also have space to record camps.</p>
+			
+				<ul>
+					<li>Each youth member should commence and maintain their personal log which details the number of nights spent camping and distance covered in hiking/canoeing etc.</li>
+					<li>This is an ongoing tally that progresses through all Sections. When a youth member links to the next section, they just keep adding the nights to their log.</li>
+					<li>Approval for the badge is via the method of approval for other badges for the section e.g. Leader for Joey Scouts and Cub Scouts or Troop, Unit and Crew Council.</li>
+					<li>When a new badge is earned, it replaces the previous badge. Only one badge is to be worn at a time. Once you have reached the maximum number of nights on the highest badge we have, you keep wearing that badge.</li>
+				</ul>
+				<br>
+				
+				<h4 id="walkabout">Walkabout Award Badge</h4>
+
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Walkabout_10km.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Walkabout_50km.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Walkabout_100km.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Walkabout_150km.png" style="transform: none">
+				<img class="smallbadge" id="otherbadge" src="images/badges/thumb_Walkabout_200km.png" style="transform: none">
+
+				<p>(Joeys / Cubs / Scouts)</p>
+				
+				<p>The Walkabout Award Badge is earned for the total kilometres travelled under human power through a youth member's time in Scouting. 
+				The minimum distance to be counted toward the tally for Joey Scouts and Cub Scouts is 1km while it is 5kms for all others. Journeys taken in a 
+				canoe, kayak, skis or a bicycle are divided by 2 e.g. a 20 km bike hike earns 10 km to the Award. Day and overnight journeys provided they are over the 
+				minimum distance for the section, may be included for the Award. The badge may be worn above the pocket of the uniform below the World Badge.</p>
+
+				<p>The requirements for the badge can be started at the Joey Scout level and continue to be added through to the Rover Scout section. These can be 
+				recorded on the Scout Central register sheet by your leaders. Some Record Books also have a personal log section.</p>
+
+				<ul>
+					<li>Each youth member should commence and maintain their personal log which details the number of nights spent camping and distance covered in hiking/canoeing etc.</li>
+					<li>This is an ongoing tally that progresses through all sections. When a youth member links to the next section, they just keep adding the nights to their log.</li>
+					<li>Approval for the badge is via the method of approval for other badges for the section e.g. Leader for Joey Scouts and Cub Scouts or Troop, Unit and Crew Council.</li>
+					<li>When a new badge is earned, it replaces the previous badge. Only one badge is to be worn at a time. Once you have reached the highest number of kilometres 
+					that we have a badge for, you keep wearing that badge.</li>
+				</ul>
+				<br>
+
+				<h4 id="cleader">Cub Scout Leadership Course Badge</h4>
+				<img class="bigbadge" id="otherbadge" src="images/badges/medium_cub_leadership_course_4C.jpg" style="transform: none">
+				
+				<p>(Cubs)</p>
+				
+				<p>This National Course provides training for current and potential Sixers and Seconds and is run in your Branch according to your Branch structure and guidelines. 
+				In order for you to attend the Cub Scout Leadership Course you must be nominated by your Cub Scout Leader.</p>
+
+				<p>The aim of this course is to provide suitable leadership skills, using a practical approach, for Cub Scouts who may be appointed to leadership roles within their 
+				Cub Scout Packs.</p>
+
+				<p>Sessions include such things as:</p>
+				
+				<ul>
+					<li>Leadership</li>
+					<li>Problem solving</li>
+					<li>Challenges</li>
+					<li>Pack Councils</li>
+				</ul>
+				<br>
+
+				<h4 id="sleader">Scout Leadership Course Badge</h4>
+				<img class="bigbadge" id="otherbadge" src="images/badges/medium_Revised_Leadership_Badge_04_1.jpg" style="transform: none">
+				
+				<p>(Scouts)</p>
+				
+				<p>The Scout Leadership course is run within your Branch according to your Branch structure and guidelines. You are encouraged to participate in the Scout 
+				Leadership Course soon after you gain your Pioneer Badge.</p>
+
+				<p>The aim of this course is to provide suitable leadership skills for Scouts, utilising a practical ‘hands on’ approach. The course is organised and run on 
+				the Patrol System and provides all participants with the opportunity to chair a meeting.</p>
+
+				<p>Sessions include:</p>
+				
+				<ul>
+					<li>Understanding the Patrol System and the Scout Award Scheme</li>
+					<li>Leadership</li>
+					<li>Problem Solving and Task Management</li>
+					<li>Citizenship</li>
+					<li>Planning/Programming</li>
+				</ul>
+				<br>
+
+				<h4 id="scoutcraft">Scoutcraft Badge</h4>
+				<img class="bigbadge" id="otherbadge" src="images/badges/Badge_ScoutCraft.jpg" style="transform: none">
+				
+				<p>(Scouts)</p>
+				
+				<p>The Scoutcraft Badge is the FIRST badge completed by EVERY new Scout.</p>
+
+				<p>The Scoutcraft Badge is earned within four to six weeks of you joining the Troop. Your Patrol Leader and Scout Leader work together to carry out 
+				the training and testing for this badge.</p>
+
+				<p>The requirements for the Scoutcraft Badge are:<p>
+
+				<p>(With your Patrol, complete the following)<p>
+					
+					<ol>
+						<li>Learn and be able to demonstrate the following knots:</li>
+							<ul>
+								<li>reef knot</li>
+								<li>clove hitch</li>
+								<li>sheet bend</li>
+								<li>rolling hitch</li>
+							</ul>
+						<li>Flag</li>
+							<ul>
+								<li>Describe the Australian flag.</li>
+								<li>Hoist and break the flag.</li>
+								<li>Explain the correct use of the flag.</li>
+							</ul>
+						<li>First aid</li>
+							<ul>
+								<li>Know how to report an emergency.</li>
+								<li>Know the first steps to control bleeding.</li>
+							</ul>
+						<li>Safety with camping tools</li>
+							<ul>
+								<li>Know the laws of carrying and use of knives in your state or territory.</li>
+								<li>Know and understand the safety rules for the use and storage of knives, bush saws and axes.</li>
+								<li>Explain the rules that apply to the supply and use of firewood in camping areas in your state or territory.</li>
+								<li>Demonstrate the use of a pocket knife or multi-tool.</li>
+							</ul>
+						<li>Patrol System</li>
+							<ul>
+								<li>Discuss with your Patrol Leader the requirements of the Pioneer Target or other appropriate Target of the Award Scheme.</li>
+								<li>Discuss with your Patrol Leader how the Patrol system works in your Troop, e.g. election of Patrol Leader, appointment of APL, responsibilities 
+								of Troop Council and how it works.</li>
+								<li>Show an understanding of how a Patrol works within the Troop</li>
+							</ul>
+					</ol>
+					<br>
+
+					<h4 id="patrol">Patrol Activity Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_Patrol_Activity_Badge.jpg" style="transform: none">
 						
-						<img id="badge2" src="images/badges/thumb_Camper_100_nights.png">			
-						<img id="badge2" src="images/badges/thumb_Camper_75_nights.png">
-						<img id="badge2" src="images/badges/thumb_Camper_50_nights.png">
-						<img id="badge2" src="images/badges/thumb_Camper_25_nights.png">
-						<img id="badge2" src="images/badges/thumb_Camper_10_nights.png">		
+					<p>(Scouts)</p>
+					
+					<p>The Patrol Activity Badge is an important part of the Award Scheme. You and your Patrol or Activity Patrol are given a wide choice of interests 
+					and skills to pursue in small group activities. These activities are organised and run by you with a minimum of adult involvement.</p>
+
+					<p>You are required to earn one Patrol Activity Badge for each of the Target levels in order to earn your Cord for that level. While you may earn 
+					as many Patrol Activity Badges as you wish, only one for each level is worn on your uniform.</p>
+
+					<p>Guidelines for achieving the Patrol Activity Badges:</p>
+					
+					<ul>
+						<li>The Patrol decides on their own activity.</li>
+						<li>The Troop Council sets the standards and decides when the Patrol activity has been achieved.</li>
+						<li>The badge should involve a minimum of eight hours activity for each Patrol member.</li>
+						<li>The badge can be undertaken by either an existing Patrol or Activity Patrol.</li>
+						<li>At least four and not more than eight Scouts can work on one Patrol Activity Badge activity.</li>
+						<li>An activity may count towards both a Patrol Activity Badge and Target or Proficiency Badge.</li>
+					</ul>
+					
+					<p><i>The Guidelines for Scout Leaders and the Scout Award Scheme</i> provides examples of appropriate activities that will meet the standard required. 
+					Read through the suggestions and use one of them or, with your Patrol members, develop you own to present to the Troop Council for consideration.</p>
+					<br>
 						
-						<h3>Camper Award Badge</h3>
-						<br/>
-						<p>The Camper Award Badge depicts the total number of nights spent camping while on approved Scouting activities. (School camps and family holidays don't count.) 
-						They may be worn above the pocket of the uniform below the World Badge.</p>
+					<h4 id="medallion">Australian Scout Medallion</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/ASM_Medallion.png" style="transform: none">
+
+					<p>(Scouts)</p>
 					
-						<p>The requirements for the badge can be started at the Joey Scout level and continue to be added through to the Rover Scout section. 
-						The number of nights camped can be recorded on Scout Central. Some Record Books also have space to record camps.</p>
+					<p>The Australian Scout Medallion is the highest award you can earn in the Scout Section. It is considered the pinnacle of your Scouting at this stage and is a 
+					milestone in your Scouting life.</p>
+
+					<p>To achieve the Australian Scout Medallion you will need to:</p>
+					<ol>
+						<li>Participate in a Scout Leadership Course at any time while doing the Explorer or Adventurer Level Badge.</li>
+						<li>Been awarded an Adventurer Level Cord with specific reference to the Adventurer Level Journey.</li>
+						<li>Demonstrate an active leadership role in Scouting through a Leadership Activity.</li>
+					</ol>
+					<br>
+						
+					<img class="bigbadge" id="otherbadge" src="images/badges/local_history.jpg" style="transform: none">
+					<h4 id="history">Local History Badge</h4>
 					
+					<p>(Cubs)</p>
+					
+					<p>Our local history is important and this is an opportunity to learn more about it. Through this badge you will learn more about your own community 
+					and Australian history and how Scouting has played a part in this history.</p>
+
+					<p>The badge may be completed as a Pack Project or earned individually. If you are attempting this badge on your own, do not hesitate to ask your 
+					Cub Scout Leader or your parents for assistance.</p>
+
+					<p>Requirements:</p>
+
+					<ul>
+						<li>Chart the history of your Scout Group</li>
+					</ul>
+					
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or</p>
+										
+					<ul>
+						<li>List in order 10 milestones in Scouting, starting with the beginning of the Movement.</li>
+					</ul>
+					
+					<p>And complete two of the following:</p>
+					
+					<ul>
+						<li>Visit a local Museum, Historical Society or a Scout Museum/Heritage Centre and:</li>
+						<ol>
+							<li>Complete a worksheet on the contents (this to be arranged beforehand with the person in charge or Leaders visiting the centre and compiling their own worksheet)</li>
+						</ol>
+					</ul>
+					
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or</p>
+					
+					<ul>
+						<ol start="2">
+							<li>Give a talk to the Pack on your visit and describe some item from 50 years ago.</li>
+						</ol>
+						<br>
+
+						<li>Meet a local senior citizen, learn the history of the local area and present this history to the Pack.</li>
+
+						<li>Visit historical landmarks in your town (memorials, buildings) and list information as to their origin.</li>
+
+						<li>Research the history of the school you attend, and either write a short story or give a short talk on it.</li>
+					</ul>
+					
+					<p>And</p>
+					
+					<ul>
+						<li>Through an Internet website or public library, research the history of a major Australian historical event and present you findings to the Pack.</li>
+					</ul>
+					<br>
+
+					<h4 id="language">Language Emblem</h4>
+					<img class="smallbadge" id="otherbadge" src="images/badges/medium_italian.jpg" style="transform: none">
+					
+					<p>(Cubs / Scouts)</p>
+
+					<p>In a foreign language that you have selected:</p>
+					
+					<ol>
+						<li>Carry on a conversation for ten minutes.</li>
+						<li>Write a letter of at least 100 words to the examiner.</li>
+						<li>Translate in your own time, and with the help of a dictionary, an easy passage from a book or magazine.</li>
+					</ol>
+					<br>
+
+					<h4 id="deaf">Language Emblem (Deaf Sign)</h4>
+					<img class="smallbadge" id="otherbadge" src="images/badges/deaf_sign_language_emblem.jpg" style="transform: none">
+					
+					<p>(Scouts)</p>
+
+					<p>You may qualify to wear a Deaf Sign Language emblem by passing the approved tests (using AUSLAN, the Australian deaf sign language or the Paget Gorman sign system) for
+					communicating with the deaf or language disabled. The qualifying tests are:</p>
+					
+					<ol>
+						<li>Carry out a conversation for about 15 minutes with a deaf person, using a Scouting topic.</li>
+						<li>Demonstrate the ability to use finger spelling and the number system, both sending and receiving.</li>
+						<li>Interpret from a previously unsighted passage from a book or periodical. The subject material should preferably be on a Scouting theme.</li>
+					</ol>
+					<br>
+
+					<h4 id="radio">Amateur Radio Operator Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/Amateur_Radio_Badge.jpg" style="transform: none">
+
+					<p>(Scouts)</p>
+					
+					<p>A member of Scouts Australia who obtains a Radio Operators Licence, in accordance with Government regulations, may wear the Amateur Radio Operator Badge on the right 
+					sleeve of the uniform.</p>
+
+					<p>The Australian Communications and Media Authority, subject to examination or equivalent acceptable qualifications, issues licences as set out in the current Amateur 
+					Licence Information Paper. Each grade of licence allows specific privileges of use of the electronic spectrum regarding frequencies and power limitations. There are no 
+					minimum age requirements. The latest qualifications and conditions can be found at <a href="https://www.acma.gov.au" target="blank">www.acma.gov.au</a></p>
+
+					<p>The badge is a gold diamond with a green band across the centre and is issued on the authorisation of the Branch Jamboree On The Air Co-ordinator and a register is 
+					kept at Branch of their issue.</p>
+					<br>
+
+					<h4 id="landcare">Landcare Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/Landcare_badge.jpg" style="transform: none">
+					
+					<p>(Joeys / Cubs / Scouts)</p>
+					
+					<p>Landcare projects can take place in any community, and there has been a strong incentive for Scout Groups to work with their local community in tackling important 
+					local projects, such as care for bushland, dunes and creeks etc. The Landcare badge is designed to encourage youth members from all sections to participate in local 
+					Landcare projects.</p>
+
+					<p>Requirements:</p>
+					
+					<ul>
+						<li>Participate in any three Nationally-accredited environment events either supported or run by Landcare Australia (such as Landcare Week, Planet Ark's Tree Day, 
+						Keep Australia Beautiful and Clean Up Australia).</li>
+					</ul>
+					
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or</p>
+					
+					<ul>
+						<li>If you are a member of a Landcare group, provide evidence of regular attendance as a Landcare volunteer.</li>
+					</ul>
+					
+					<p>You will need to spend at least 10 hours participating in either of the above requirements in total (note - not 10 hours per event). This must be completed within 
+					a 12 month period.</p>
+					<br>
+
+					<h4 id="heritage">Their Service, Our Heritage Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_their_service_our_heritage.jpg" style="transform: none">
+					
+					<p>(Joeys / Cubs / Scouts)</p>
+					
+					<p>This Award was introduced in the year 2000 for all members of Scouts Australia, with the intention of raising the level of awareness of youth members about 
+					our Veterans and providing Scout members with an opportunity to actively participate in the 'Their Service, Our Heritage' program.</p>
+
+					<p>This is an annual award and is achieved each year with the year commencing on 25th April. The badge will have a different coloured edging each year.</p>
+
+					<p>Participate in two activities relevant to 'Their Service, Our Heritage'</p>
+
+					<p>Suggestions:</p>
+					
+					<ul>
+						<li>Take part in an ANZAC day march or ceremony</li>
+						<li>Take part in Rememberance Day</li>
+						<li>Invite a Veteran to your meeting to talk to you</li>
+						<li>Visit a Veterans Home or the local RSL</li>
+						<li>Maintain your local Memorial</li>
+						<li>Visit a Tomb of the Unknown Soldier</li>
+					</ul>
+					<br>
+
+					<h4 id="waterwise">Waterwise Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_waterwise_4C.jpg" style="transform: none">
+					
+					<p>(Cubs)</p>
+					
+					<p>To Become a Waterwise Cub Scout, complete any six of the following 'Waterwise' activities. These may be done as a Pack, a small group or individually. 
+					If you do them individually you need to report, in any form you choose, to your Pack on what you have learnt.
+					
+					<p>Discovery</p>
+					
+					<ul>
+						<li>Conduct simple experiments to show your understanding of two of the following: capillary action, surface tension, the density of salt water, 
+						how oil floats on water, how a submarine works or similar.</li>
+					</ul>
+					
+					<p>Conservation</p>
+					
+					<ul>
+						<li>Use your water meter to find out how much water your family uses in a week. Discuss with your family how you could reduce this amount.</li>
+						<li>Design and make a fridge magnet to display a water saving message to your family.</li>
+					</ul>
+					
+					<p>Protecting Our Wetlands</p>
+					
+					<ul>
+						<li>Find out how the things we put down our drains effect our rivers, streams and wetlands.</li>
+						<li>Design a poster to show what we can do to help protect our wetlands OR make up an environmentally friendly cleaning kit using everyday items such 
+						as vinegar, bicarbonate of soda, lemon juice etc. Include instructions on how to use these products.</li>
+					</ul>
+					
+					<p>Health</p>
+					
+					<ul>
+						<li>Water is vital to our health. Find out what happens to our bodies if we don't have enough water or if our water is not clean. Tell your Six or 
+						Pack what you have learnt.</li>
+					</ul>
+					
+					<p>Water and the Natural Environment</p>
+					
+					<ul>
+						<li>Choose a way to show that you understand the water cycle and the three forms water can take: solid, liquid and gas.</li>
+					</ul>
+					
+					<p>Community</p>
+					
+					<ul>
+						<li>Perform a community service such as helping to re-establish a wetland, planting low water-use shrubs or similar. 
+						Contact an environmental group to see what you can do to help your community.</li>
+					</ul>
+					
+					<p>Global Community</p>
+					
+					<ul>
+						<li>1.1 billion people in the world do not have access to clean water. List six countries where there is not enough 
+						clean water and the names of two groups working to help these countries. Find out if there is anything your family or your Pack can do to help.</li>
+					</ul>
+					
+					<p>Games</p>
+					
+					<ul>
+						<li>With your Pack participate in a quiz or a Wide Game with a water theme.</li>
+					</ul>
+					
+					<p>Expedition</p>
+					
+					<ul>
+						<li>With your family or your Pack visit a dam or water catchment area. Find out what area it supplies with water 
+						and any other interesting facts you can. Tell your Six or Pack what you have learnt. You might like to take some photos to help you explain.</li>
+					</ul>
+					
+					<p>Home Environment</p>
+					
+					<ul>
+						<li>At home or at your Scout Hall help to build a frog friendly garden, plant some native shrubs or ground covers or similar. If you do this 
+						activity at home bring a note from a parent.</li>
+					</ul>
+					<br>
+
+					<h4 id="enviro">World Scout Environment Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_WEBPurple.jpg" style="transform: none">
+					
+					<p>(Joeys / Cubs / Scouts)</p>
+
+					<p>This is a badge from the World Scout Environment Program which helps Scouts around the world work together for the good of the local and global environment.</p>
+					<p>Requirements:</p>
+					
+					<h5>A - Explore and Reflect</h5>
+
+					<p>Complete activities based on each of the five aims:</p>
+					
+					<ol>
+						<li>People and natural systems have clean water and clean air.</li>
+							<ul>
+								<li>Explore the sources of clean water and clean air in the local environment.</li>
+								<li>Understand the ways water and air are naturally cleaned.</li>
+							</ul>
+						<li>Sufficient natural habitat exist to support native species.</li>
+							<ul>
+								<li>Explore a local natural area.</li>
+								<li>Discover some of the local native species of plants and animals and their habitat needs.</li>
+								<li>Demonstrate knowledge of some contrasting natural habitats.</li>
+							</ul>	
+						<li>The risk of harmful substances to people and the environment are minimised.</li>
+							<ul>
+								<li>Be aware of harmful substances in the local environment.</li>
+								<li>Explain ways to reduce the risk of harmful substances to people, plants and animals.</li>
+							</ul>
+						<li>The most suitable environmental practices are used.</li>
+							<ul>
+								<li>Show awareness of how our actions affect the environment and alternative ways to make a smaller impact.</li>
+							</ul>
+						<li>People are prepared to respond to environmental hazards and natural disasters.</li>
+							<ul>
+								<li>Be able to recognise different types of environmental hazards and natural disasters.</li>
+								<li>Demonstrate how to be prepared and react to environmental hazards and natural disasters in the local area.</li>
+							</ul>
+					</ol>
+					
+					<h5>B - Take Action</h5>
+
+					<p>Complete an environmental project that relates to the previous learning and to the local environment.</p>
+					
+					<ol>
+						<li>Participate in a local environment project.</ul>
+						<li>Understand the benefits to the local environment of the project.</ul>
+						<li>Be aware of the local to global link of the project.</ul>
+						<li>Share your findings with your Six or Pack.</ul>
+					</ol>
+					
+					<p>The WSEB currently doesn't link to other areas of the Cub Scout Award Scheme. Completion of the WSEB should take a minimum of 10 hours.</p>
+					<br>
+
+					<h4 id="firstaid">First Aid Badge</h4>
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_First_Aid_Badge.jpg" style="transform: none">
+					
+					<p>(Scouts)</p>
+					
+					<p>While an individual's qualifications remain valid, the relevant Association's First Aid Badge may be worn at the bottom of the right sleeve on the uniform. This 
+					applies to all Scouts who hold a current First Aid qualification from any approved provider, to current Australian Resuscitation Council standards.</p>
+
+					<p>The armlets of the St John Ambulance Association, the St John Ambulance Brigade and the Red Cross Society may be worn on the left sleeve while serving with one of 
+					these bodies.</p>
+
+					<p>The cloth badge of the Royal Life Saving Society may be worn on the right sleeve of the uniform.</p>
+					<br>
+
+					<h4 id="cfaith">Faith Awareness Badge</h4>
+					
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_cub_faith_awareness_4C.jpg" style="transform: none">
+					
+					<h5>Cub Scout</h5>
+					
+					<p>Requirements:</p>
+					<ol>
+						<li>Know and explain the basic principles of your religion or a religion of your choice to your Adviser by:</li>
+							<ul>
+								<li>discussion</li>
+							</ul>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or</p>
+							<ul>
+								<br/>
+								<li>completing a project such as a scrapbook or poster.</li>
+							</ul>
+						<li>Participate regularly for at least three months in religious services of your choice.</li>
+						<li>Know and explain why we use prayer. Make up a simple prayer for use at home, at one of your Pack meetings or at Scout's Own.</li>
+
+						<li>Learn about one other religion of your choice and discuss it with your Adviser (and the Pack if you wish).</li>
+					</ol>
+					<br>
+
+					<h5 id="sfaith">Scout</h5>
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_faith-awareness.jpg" style="transform: none">
+		
+					<p>Youth members of the Scout Section are eligible to earn and wear the Faith Awareness Badge. The badge has a green background with black and white figures and may 
+					be earned at any time whilst in the Scout Section.</p>
+
+					<p>Badge Adviser:<p>
+					<p>The Badge Adviser will be called a Religious Adviser. The Religious Adviser may be a Minister of Religion, Priest, Rabbi, Lay Helper or religious equivalent. A 
+					Religious Adviser of the Scout's choice should test the badge.</p>
+
+					<p>Requirements:</p>
+					
+					<ol>
+						<li>Know and explain the basic principles of your religion or a religion of your choice to your Adviser by discussion or completing a project, such as a scrapbook or poster.</li>
+						<li>Participate regularly for at least three months in religious services of your choice.</li>
+						<li>Know and explain why we use prayer. Make up a simple prayer for use at home, at one of your Scout meetings or at Scout's Own.</li>
+						<li>Learn about one other religion of your choice and discuss it with your Adviser (and the Scout Troop if you wish).</li>
+					</ol>
+					<br>
+
+					<img class="bigbadge" id="otherbadge" src="images/badges/medium_MoP_Badge.png" style="transform: none">
+					<h4>Messengers of Peace</h4>
+					
+					<h5>Joey Scout</h5>
+					<p>Joey Scouts do good turns and help others because it is part of the Joey Scout Promise and Law. It is nice to help others, even if it is only a small action. 
+					Whenever we are kind to people we send a message of love and peace, making a difference to the others and also ourselves.</p>
+
+					<p>Requirements:</p>
 						<ul>
-							<li>Each youth member should commence and maintain their personal log which details the number of nights spent camping and distance covered in hiking/canoeing etc.</li>
-							<li>This is an ongoing tally that progresses through all Sections. When a youth member links to the next section, they just keep adding the nights to their log.</li>
-							<li>Approval for the badge is via the method of approval for other badges for the section e.g. Leader for Joey Scouts and Cub Scouts or Troop, Unit and Crew Council.</li>
-							<li>When a new badge is earned, it replaces the previous badge. Only one badge is to be worn at a time. Once you have reached the maximum number of nights on the highest badge we have, you keep wearing that badge.</li>
+							<li>Learn about the Messengers of Peace initiative in a Scout meeting or online.</li>
+							<li>Participate in a good turn for your community</li>
 						</ul>
 
-						<div id="walkabout"></div>	
-						<br/>
-						<br/>
+					<h5>Cub Scout</h5>
+					<p>Cub Scouts do good turns and help others because it is part of the Cub Scout Promise and Law. It is also because it is nice to help others and to make a 
+					difference, even if it is only a small action. Whenever we are kind to people we send a message of love and peace, making a difference to the recipients and 
+					also ourselves. It just feels good.</p>
 
-						<img id="badge2" src="images/badges/thumb_Walkabout_200km.png">
-						<img id="badge2" src="images/badges/thumb_Walkabout_150km.png">
-						<img id="badge2" src="images/badges/thumb_Walkabout_100km.png">
-						<img id="badge2" src="images/badges/thumb_Walkabout_50km.png">
-						<img id="badge2" src="images/badges/thumb_Walkabout_10km.png">
-						
-						<h3>Walkabout Award Badge</h3>
-						<br/>
-						<p>The Walkabout Award Badge is earned for the total kilometres travelled under human power through a youth member's time in Scouting. 
-						The minimum distance to be counted toward the tally for Joey Scouts and Cub Scouts is 1km while it is 5kms for all others. Journeys taken in a 
-						canoe, kayak, skis or a bicycle are divided by 2 e.g. a 20 km bike hike earns 10 km to the Award. Day and overnight journeys provided they are over the 
-						minimum distance for the section, may be included for the Award. The badge may be worn above the pocket of the uniform below the World Badge.</p>
-
-						<p>The requirements for the badge can be started at the Joey Scout level and continue to be added through to the Rover Scout section. These can be 
-						recorded on the Scout Central register sheet by your leaders. Some Record Books also have a personal log section.</p>
-
+					<p>Requirements:</p>
 						<ul>
-							<li>Each youth member should commence and maintain their personal log which details the number of nights spent camping and distance covered in hiking/canoeing etc.</li>
-							<li>This is an ongoing tally that progresses through all sections. When a youth member links to the next section, they just keep adding the nights to their log.</li>
-							<li>Approval for the badge is via the method of approval for other badges for the section e.g. Leader for Joey Scouts and Cub Scouts or Troop, Unit and Crew Council.</li>
-							<li>When a new badge is earned, it replaces the previous badge. Only one badge is to be worn at a time. Once you have reached the highest number of kilometres that we have a badge for, you keep wearing that badge.</li>
-						</ul>					
-						
-						
-						<br/>
-						<img id="badge" src="images/badges/medium_MoP_Badge.png" style="height:10em">
-						<h3>Messengers of Peace</h3>
-						
-						<h5>Joey Scout</h5>
-						<p>Joey Scouts do good turns and help others because it is part of the Joey Scout Promise and Law. It is nice to help others, even if it is only a small action. 
-						Whenever we are kind to people we send a message of love and peace, making a difference to the others and also ourselves.</p>
+							<li>Learn about the Messengers of Peace initiative in a Scout meeting or online.</li>
+							<li>Participate in a Messengers of Peace community engagement activity organised in your Six.</li>
+							<li>Share your actions online with the help of an adult at <a href="https://www.scout.org/" target="blank">scout.org</a></li>
+						</ul>
 
-						<p>Requirements:</p>
-							<ul>
-								<li>Learn about the Messengers of Peace initiative in a Scout meeting or online.</li>
-								<li>Participate in a good turn for your community</li>
-							</ul>
+					<h5>Scout</h5>
+					<p>Scouts do good turns and help others because it is part of the Scout Promise and Law. It is also because it is nice to help others and to make a difference, 
+					even if it is only a small action. Whenever we are kind to people we send a message of love and peace, making a difference to the recipients and also ourselves. 
+					It just feels good.</p>
 
-						<h5>Cub Scout</h5>
-						<p>Cub Scouts do good turns and help others because it is part of the Cub Scout Promise and Law. It is also because it is nice to help others and to make a 
-						difference, even if it is only a small action. Whenever we are kind to people we send a message of love and peace, making a difference to the recipients and 
-						also ourselves. It just feels good.</p>
+					<p>Requirements:</p>
+						<ul>
+							<li>Learn about the Messengers of Peace initiative in a Scout meeting or online.</li>
+							<li>Participate in a community involvement action organised together with your Patrol.</li>
+							<li>Share your actions online at <a href="https://www.scout.org/" target="blank">scout.org</a></li>
+						</ul>
 
-						<p>Requirements:</p>
-							<ul>
-								<li>Learn about the Messengers of Peace initiative in a Scout meeting or online.</li>
-								<li>Participate in a Messengers of Peace community engagement activity organised in your Six.</li>
-								<li>Share your actions online with the help of an adult at <a href="https://www.scout.org/" target="new">scout.org</a></li>
-							</ul>
+				</div>
 
-						<h5>Scout</h5>
-						<p>Scouts do good turns and help others because it is part of the Scout Promise and Law. It is also because it is nice to help others and to make a difference, 
-						even if it is only a small action. Whenever we are kind to people we send a message of love and peace, making a difference to the recipients and also ourselves. 
-						It just feels good.</p>
-
-						<p>Requirements:</p>
-							<ul>
-								<li>Learn about the Messengers of Peace initiative in a Scout meeting or online.</li>
-								<li>Participate in a community involvement action organised together with your Patrol.</li>
-								<li>Share your actions online at <a href="https://www.scout.org/" target="new">scout.org</a></li>
-							</ul>
-
-					</div>
-            </div>
-		</div>
-		
-		<div class="clear"></div>
-		
-		<div class="footer">		
-			<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
-		</div>
+			<footer>
+				<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
+			</footer>
+		</main>
 		
 	</body>
 </html>

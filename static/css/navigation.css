@@ -1,94 +1,75 @@
 
-
-
-
-/*  Suffixes j, c, and s refer to Joeys, Cubs and Scouts. */
-
-
-
-
-div#navigation{
-	background-color:#412213;
-	margin:0.4em 0em 0em;	
-	float:left;
-	width:100%;
-	padding:0.1em 0em;
-	font-size: 0.9em;
+.navbar {
+	background-color: #412213;
+	padding: 0;
 }
 
-div#navigationj{
-	background: #B65518;
-	float:left;
-	width:100%;
-	padding:0.1em 0em 0.1em 0;
-	font-size: 0.8em;
+.nav-link {
+	color: white !important;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
 }
 
-div#navigationc{
-	background: #FFC82E;
-	float:left;
-	width:100%;
-	padding:0.1em 0em 0.1em 0;
-	font-size: 0.8em;
+.nav-link:hover {
+	background-color: white !important;
+	color: #412213 !important; 
 }
 
-div#navigations{
-	background: #00AE42;
-	float:left;
-	width:100%;
-	padding:0.1em 0em 0.1em 0;
-	font-size: 0.8em;
+.dropdown-menu {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-div.float{
-	margin: -0.1em 0 -0.1em 0;
-	line-height:2em;
-	float:left;
-	position:relative;
-	width: 11.1111%;
-	text-align: center;
+.navbar-nav > li > .dropdown-menu a {
+	color: white;
+	text-decoration: none;
 }
 
-div.floatj{
-	margin: -0.1em 0 -0.1em 0;
-	line-height:2em;
-	float:left;
-	position:relative;
-	width: 33.3333%;
-	text-align: center;
+.navbar-nav > li > .dropdown-menu a:hover {
+	background-color: white !important;
+	color: #412213;  
 }
 
-div.floatc{
-	margin: -0.1em 0 -0.1em 0;
-	line-height:2em;
-	position: relative;
-	float:left;
-	width: 16.6666%;
-	text-align: center;
+#joeynav > .dropdown-menu { 
+	background-color: #B65518; 
 }
 
-div.floats{
-	margin: -0.1em 0 -0.1em 0;
-	line-height:2em;
-	float:left;
-	position:relative;
-	width: 16.6666%;
-	text-align: center;
+#cubnav > .dropdown-menu { 
+	background-color: #FFC82E; 
 }
 
-div.float a, div.floatj a, div.floatc a, div.floats a {
-	color:#ffffff;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
-	display:block;
-	font-weight:normal;
+#scoutnav > .dropdown-menu { 
+	background-color: #00AE42; 
 }
 
-div.float a:hover, div.floatj a:hover, div.floatc a:hover, div.floats a:hover {
-	color:#ffffff;
-	background-color:#584941;
+#bronze {
+	background-color: #CD7F32;
 }
 
+#silver {
+	background-color: silver;
+}
 
+#gold {
+	background-color: #D4AF37;
+}
 
+#pioneer {
+	background-color: red;
+}
 
+#explorer {
+	background-color: blue;
+}
+
+#adventurer {
+	background-color: green;
+}
+
+@media (max-width: 992px) {
+	.navbar ul {
+		padding-left: 2em;
+	}
+}

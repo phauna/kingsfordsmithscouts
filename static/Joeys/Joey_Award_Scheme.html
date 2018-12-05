@@ -1,140 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Joey Participation Scheme - Kingsford Smith Scout Group</title>
+
+		<meta charset="utf-8"/>
+
+		<title>Participation Badges - Kingsford-Smith Scout Group</title>
+		
+		<meta name="description=" content="Kingsford-Smith Scout Group">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		
-		<link href="../css/styles.css" rel="stylesheet" type="text/css" />
-		<link href="../css/header.css" rel="stylesheet" type="text/css" />
+
 		<link href="../css/main.css" rel="stylesheet" type="text/css" />
 		<link href="../css/navigation.css" rel="stylesheet" type="text/css" />
+		
 	</head>
 
 	<body>
-		<div id="header">
-			<img src="../images/header/scouts_green.jpg" style="height: 80px; float: right">
-			<h1><a href="../index.html" title="home">Kingsford Smith Scout Group</a></h1>
-		</div>
 
-		<div id="photo">
-			<img src="../images/header/joeysaward_header.jpg" /> 
-		</div>
-
-		<div id="navigation">
-			<div class="float">
-				<a href="../index.html">Home</a>
-			</div>
+			<header>
+				<div class="flex-container title">
+					<div>
+						<h1><a href="../index.html">Kingsford-Smith Scout Group</a></h1>
+					</div>
+				
+					<div>
+						<img id="crest" src="../images/header/scouts_green.jpg" alt="Scout logo">
+					</div>
+				</div>
+	
+			</header>
 			
-			<div class="float" style="background: #B65518">
-				<a href="../Joeys/Joeys.html">Joeys</a>                    
-			</div>
-			
-			<div class="float">
-				<a href="../Cubs/Cubs.html">Cubs</a>
-			</div>
-			
-			<div class="float">
-				<a href="../Scouts/Scouts.html">Scouts</a>					
-			</div>
-			
-			<div class="float">
-				<a href="../calendar.html">Calendar</a>
-			</div>
-			
-            <div class="float">
-				<a href="../photos.html">Photos</a>
-			</div>
-			
-			<div class="float">
-				<a href="../Contact_Us.html">Contact</a>
-			</div>
-			
-			<div class="float">
-				<a href="../links.html">Links</a>
-			</div>
-			
-			<div class="float">
-				<a href="../about_us.html">About</a>
-			</div>
-		</div>
-		
-		<div id="navigationj">
-			<div class="floatj">
-				<a href="../Joeys/Joey_Award_Scheme.html">Participation Scheme</a>
-			</div>
-			
-			<div class="floatj">
-				<a href="../Joeys/Joey_Law_Promise.html">Law and Promise</a>
-			</div>
-			
-			<div class="floatj">
-				<a href="../Joeys/Joeys_Resources.html">Resources</a>
-			</div>
-		</div>
-           
-		<div class="clear"></div>
-       
-		<div id="main">
-			<div id="container">
-				<div id="sidebarj"></div>
-					<div id="content"> 
-					<h2>Joey Participation Scheme</h2>
+			<main>
+				
+				<img id="banner" src="../images/header/joeysaward_header.jpg" alt="Joeys banner">
+	
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav nav-fill w-100 align-items-start">
+							<li class="nav-item">
+								<a class="nav-link" href="../index.html">Home</a>
+							</li>
+							<li id="joeynav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Joeys</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="../Joeys/Joeys.html">Who are Joeys?</a>
+									<a class="dropdown-item" href="../Joeys/Joey_Award_Scheme.html">Participation Badges</a>
+									<a class="dropdown-item" href="../Joeys/Joey_Law_Promise.html">Law and Promise</a>
+									<a class="dropdown-item" href="../Joeys/Joeys_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="cubnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cubs</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="../Cubs/Cubs.html">Who are Cubs?</a>
+									<a id="bronze" class="dropdown-item" href="../Cubs/BronzeBoomerang.html">Bronze Boomerang</a>
+									<a id="silver" class="dropdown-item" href="../Cubs/SilverBoomerang.html">Silver Boomerang</a>
+									<a id="gold" class="dropdown-item" href="../Cubs/GoldBoomerang.html">Gold Boomerang</a>
+									<a class="dropdown-item" href="../Cubs/Cubs_Achievement.html">Achievement Badges</a>
+									<a class="dropdown-item" href="../Cubs/Cubs_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="../Cubs/Cubs_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="scoutnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scouts</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="../Scouts/Scouts.html">Who are Scouts?</a>
+									<a id="pioneer" class="dropdown-item" href="../Scouts/Pioneer_Cord.html">Pioneer Badge</a>
+									<a id="explorer" class="dropdown-item" href="../Scouts/Explorer_Cord.html">Explorer Badge</a>
+									<a id="adventurer" class="dropdown-item" href="../Scouts/Adventurer_Cord.html">Adventurer Badge</a>
+									<a class="dropdown-item" href="../Scouts/Scouts_Proficiency.html">Proficiency Badges</a>
+									<a class="dropdown-item" href="../Scouts/Scouts_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="../Scouts/Scouts_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../calendar.html">Calendar</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../photos.html">Photos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../Contact_Us.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../links.html">Links</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../about_us.html">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				
+			<div class="joeys well">
+					<h3>Participation Badges</h3>
 		
 					<p>
 					The Participation Scheme includes five badges. Each of the badges are usually done by the whole Mob together. Some badges have elements that families can do together with their Joey Scout. 
 					In addition to the specific aspects of each badge, these activities develop the Joey Scouts' social awareness and spirit of teamwork. The participation scheme has an accent on cooperative, active learning.</p>
 					
-					<div class="clear"></div>
-					
-					<br/>
-					<img id="badge" src="../images/badges/joey_caring_and_sharing.jpg">
-					
-					<h3>Caring and Sharing Activity</h3>
+					<img class="bigbadge" id="otherbadge" src="../images/badges/joey_caring_and_sharing.jpg" style="transform: none">
+
+					<h4>Caring and Sharing Activity</h4>
 					
 					<p>	   
 					Each Mob plans and runs programs for one month that focus on caring and sharing. As a highlight, the Mob does a special deed for the local community.</p>
 					
-					<div class="clear"></div>
+					<br>
+					<img class="bigbadge" id="otherbadge" src="../images/badges/joey_buddy_scheme.jpg" style="transform: none">
 					
-					<br/>
-					<img id="badge" src="../images/badges/joey_buddy_scheme.jpg">
-					
-					<h3>Buddy Scheme</h3>
+					<h4>Buddy Scheme</h4>
 					
 					<p>	
 					Joey Scout Mobs visit each other, share activities and have great fun. The Mob Buddy Scheme aims at building a rapport and friendship between different Mobs.</p>
+
+					<br>
+					<a href="https://docs.google.com/viewerng/viewer?url=http://www.gwsjoeys.org.au/wp-content/uploads/2011/09/The-Environment-Challenge-Requirements.pdf" target="blank"><img class="bigbadge" id="otherbadge" src="../images/badges/joey_environment_challenge.jpg"></a>
 					
-					<div class="clear"></div>
-					
-					<br/>
-					<a href="http://www.gwsjoeys.org.au/wp-content/uploads/2011/09/The-Environment-Challenge-Requirements.pdf" target="new"><img id="badge" src="../images/badges/joey_environment_challenge.jpg"></a>
-					
-					<h3>Environment Challenge</h3>
+					<h4>Environment Challenge</h4>
 					
 					<p> 
-					The Mob undertakes four simple <a href="http://www.gwsjoeys.org.au/wp-content/uploads/2011/09/The-Environment-Challenge-Requirements.pdf" target="new">Environmental Challenges (pdf)</a> that aim to develop an appreciation of and respect for the natural environment, to gain knowledge of Australian plants and animals, and to develop a sense of responsibility in behaviour and action.</p>
+					The Mob undertakes four simple <a href="https://docs.google.com/viewerng/viewer?url=http://www.gwsjoeys.org.au/wp-content/uploads/2011/09/The-Environment-Challenge-Requirements.pdf" target="blank">Environmental Challenges</a> that aim to develop an appreciation of and respect for the natural environment, to gain knowledge of Australian plants and animals, and to develop a sense of responsibility in behaviour and action.</p>
+
+					<br>
+					<img class="bigbadge" id="otherbadge" src="../images/badges/joey_adventure_challenge.jpg" style="transform: none">
 					
-					<div class="clear"></div>
-					
-					<br/>
-					<img id="badge" src="../images/badges/joey_adventure_challenge.jpg">
-					
-					<h3>Adventure Challenge</h3>
+					<h4>Adventure Challenge</h4>
 					
 					<p>
 					The Adventure Challenge is designed to broaden each Joey Scout's life experiences through visiting places to which the Mob doesn't usually go.
 					Some of the adventures could include a trip to the beach or a creek, a bushwalk, visiting a museum or a farm, the possibilities are endless!</p>
-					
-					<div class="clear"></div>
-					
+
 					<br/>					
-					<a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjExZWI1MTQwMWE1ZjBmOWQ" target="new"><img id="badge" src="../images/badges/medium_Promise_Challenge_Badge.png" style="margin-top: 2.5em"></a>
+					<a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjExZWI1MTQwMWE1ZjBmOWQ" target="blank"><img class="bigbadge" id="otherbadge" src="../images/badges/medium_Promise_Challenge_Badge.png"></a>
 					
-					<h3>The Promise Challenge</h3>
+					<h4>The Promise Challenge</h4>
 					<p>
-					The <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjExZWI1MTQwMWE1ZjBmOWQ" target="new">Promise Challenge (pdf)</a>
+					The <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjExZWI1MTQwMWE1ZjBmOWQ" target="blank">Promise Challenge</a>
 					is the major Challenge for the Joey Scout Section and has some individual elements as well as activities to do with the Mob. This is generally attempted by the older Joey Scouts.
 					The aim of this challenge is to allow Joey Scouts to gain a greater understanding of the Scout Promise and Law, to learn about Scouting's Founder, Lord Robert Baden-Powell, and to discover the history of Scouting.
 					The challenge requires the Joey Scout to complete certain elements, such as research and discussion with their parents and Leaders, away from the Mob meetings.
@@ -142,44 +153,43 @@
 					</p>
 					<br/>
 					
-					<a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjE4YmZmOWQ5M2VmN2EyYWI" target="_new"><img id="badge" src="../images/badges/medium_cub_scout_link_4C.jpg" style="height: 4em; padding-right: 0.75em"></a>
-					<h3>Cub Link Badge</h3>
+					<a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjE4YmZmOWQ5M2VmN2EyYWI" target="blank"><img class="smallbadge" id="otherbadge" src="../images/badges/medium_cub_scout_link_4C.jpg"></a>
+
+					<h4>Cub Link Badge</h4>
 						
-					<p>The <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjE4YmZmOWQ5M2VmN2EyYWI" target="_new">Link badge (pdf)</a> is the last you will do before you move up into Cubs.</p>
+					<p>The <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZXBwaW5nc2NvdXRzLmNvbS5hdXxlcHBpbmctc2NvdXRzLWdyb3VwfGd4OjE4YmZmOWQ5M2VmN2EyYWI" target="blank">Link badge</a> is the last you will do before you move up into Cubs.</p>
 					<br/>
 					<br/>
 
-					<h2>Other Badges</h2>
-					<h3>Camper Award Badge</h3>
-					<a href="../Other_Badges.html#camper"><img id="badge2" src="../images/badges/thumb_Camper_100_nights.png"></a>	
-					<a href="../Other_Badges.html#camper"><img id="badge2" src="../images/badges/thumb_Camper_75_nights.png"></a>
-					<a href="../Other_Badges.html#camper"><img id="badge2" src="../images/badges/thumb_Camper_50_nights.png"></a>
-					<a href="../Other_Badges.html#camper"><img id="badge2" src="../images/badges/thumb_Camper_25_nights.png"></a>
-					<a href="../Other_Badges.html#camper"><img id="badge2" src="../images/badges/thumb_Camper_10_nights.png"></a>	
-		
-					<p style="width:30em">The <a href="../Other_Badges.html#camper">Camper Award Badge</a> depicts the total number of nights spent camping while on approved Scouting activities.</p>
+					<h3>Other Badges</h3>
+					<br>
+					<h4>Camper Award Badge</h4>
+					<a href="../Other_Badges.html#camper"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Camper_10_nights.png"></a>
+					<a href="../Other_Badges.html#camper"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Camper_25_nights.png"></a>
+					<a href="../Other_Badges.html#camper"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Camper_50_nights.png"></a>
+					<a href="../Other_Badges.html#camper"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Camper_75_nights.png"></a>	
+					<a href="../Other_Badges.html#camper"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Camper_100_nights.png"></a>	
+					
+					<p>The <a href="../Other_Badges.html#camper">Camper Award Badge</a> depicts the total number of nights spent camping while on approved Scouting activities.</p>
 					<br/>
 					
-					<h3>Walkabout Award Badge</h3>
-					<a href="../Other_Badges.html#walkabout"><img id="badge2" src="../images/badges/thumb_Walkabout_200km.png"></a>	
-					<a href="../Other_Badges.html#walkabout"><img id="badge2" src="../images/badges/thumb_Walkabout_150km.png"></a>
-					<a href="../Other_Badges.html#walkabout"><img id="badge2" src="../images/badges/thumb_Walkabout_100km.png"></a>
-					<a href="../Other_Badges.html#walkabout"><img id="badge2" src="../images/badges/thumb_Walkabout_50km.png"></a>
-					<a href="../Other_Badges.html#walkabout"><img id="badge2" src="../images/badges/thumb_Walkabout_10km.png"></a>	
-										
-					<p style="width:30em">The <a href="../Other_Badges.html#walkabout">Walkabout Award Badge</a> is earned for the total kilometres travelled under human power through a youth member's time in Scouting.</p>
+					<h4>Walkabout Award Badge</h4>
+					<a href="../Other_Badges.html#walkabout"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Walkabout_10km.png"></a>
+					<a href="../Other_Badges.html#walkabout"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Walkabout_50km.png"></a>
+					<a href="../Other_Badges.html#walkabout"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Walkabout_100km.png"></a>
+					<a href="../Other_Badges.html#walkabout"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Walkabout_150km.png"></a>
+					<a href="../Other_Badges.html#walkabout"><img class="smallbadge" id="otherbadge" src="../images/badges/thumb_Walkabout_200km.png"></a>	
+									
+					<p>The <a href="../Other_Badges.html#walkabout">Walkabout Award Badge</a> is earned for the total kilometres travelled under human power through a youth member's time in Scouting.</p>
 					<br/>
 					
 		</div>
-	</div>                
-</div>
-           
-		<div class="clear"></div>
 		
-		<div class="footer">
-			<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
-		</div>
-</body>
+			<footer>
+				<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
+			</footer>
+		</main>
+	</body>
 </html>
 
                 

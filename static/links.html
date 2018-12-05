@@ -1,154 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8"/>
 		
-		<title>Links - Kingsford Smith Scout Group</title>
+		<title>Links - Kingsford-Smith Scout Group</title>
 		
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<meta name="description=" content="Kingsford-Smith Scout Group">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
-		<link href="css/header.css" rel="stylesheet" type="text/css" />
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link href="css/navigation.css" rel="stylesheet" type="text/css" />
+
 	</head>
 
 	<body>
-		<div id="header">
-			<img src="images/header/scouts_green.jpg" style="height: 80px; float: right" />
-			<h1><a href="index.html" title="home">Kingsford Smith Scout Group</a></h1>
-		</div>
+
+			<header>
+				<div class="flex-container title">
+					<div>
+						<h1><a href="index.html">Kingsford-Smith Scout Group</a></h1>
+					</div>
+				
+					<div>
+						<img id="crest" src="images/header/scouts_green.jpg" alt="Scout logo">
+					</div>
+				</div>
+	
+			</header>
+	
+			<main>
+				
+				<img id="banner" src="images/header/links_header.jpg" alt="Scouts on a hike">
+	
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav nav-fill w-100 align-items-start">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li id="joeynav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Joeys</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Joeys/Joeys.html">Who are Joeys?</a>
+									<a class="dropdown-item" href="Joeys/Joey_Award_Scheme.html">Participation Badges</a>
+									<a class="dropdown-item" href="Joeys/Joey_Law_Promise.html">Law and Promise</a>
+									<a class="dropdown-item" href="Joeys/Joeys_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="cubnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cubs</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Cubs/Cubs.html">Who are Cubs?</a>
+									<a id="bronze" class="dropdown-item" href="Cubs/BronzeBoomerang.html">Bronze Boomerang</a>
+									<a id="silver" class="dropdown-item" href="Cubs/SilverBoomerang.html">Silver Boomerang</a>
+									<a id="gold" class="dropdown-item" href="Cubs/GoldBoomerang.html">Gold Boomerang</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Achievement.html">Achievement Badges</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="Cubs/Cubs_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li id="scoutnav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scouts</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Scouts/Scouts.html">Who are Scouts?</a>
+									<a id="pioneer" class="dropdown-item" href="Scouts/Pioneer_Cord.html">Pioneer Badge</a>
+									<a id="explorer" class="dropdown-item" href="Scouts/Explorer_Cord.html">Explorer Badge</a>
+									<a id="adventurer" class="dropdown-item" href="Scouts/Adventurer_Cord.html">Adventurer Badge</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Proficiency.html">Proficiency Badges</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Other_Badges.html">Other Badges</a>
+									<a class="dropdown-item" href="Scouts/Scouts_Resources.html">Resources</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="calendar.html">Calendar</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="photos.html">Photos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Contact_Us.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="links.html">Links</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about_us.html">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+			<div class="well">
+			
+				<h2>Links</h2>
+				<br>
+				<p>Here are a few useful websites and resources:</p>
+				<br>
+				
+				<div class="flex-container">
 					
-		<div id="photo">
-			<img src="images/header/links_header.jpg" />      
-		</div>
+					<a class="links" href="https://www.youtube.com/c/KingsfordsmithOrgAuScouts" target="blank">
+						<figure>
+							<img src="images/kingsford_smith_ytb.jpg" alt="Kingsford-Smith Youtube channel">
+							<figcaption>Kingsford-Smith Youtube channel</figcaption>
+					  	</figure>
+					</a>
 
-		<div id="navigation">
-			<div class="float">
-				<a href="index.html">Home</a>
-			</div>
-			
-			<div class="float">
-				<a href="Joeys/Joeys.html">Joeys</a>                   
-			</div>
-			
-			<div class="float">
-					<a href="Cubs/Cubs.html">Cubs</a>						
-			</div>
-			
-			<div class="float">
-				<a href="Scouts/Scouts.html">Scouts</a>				
-			</div>
-			
-			<div class="float">
-				<a href="calendar.html">Calendar</a>
-			</div>
-			
-            <div class="float">
-				<a href="photos.html">Photos</a>
-			</div>
-			
-			<div class="float">
-				<a href="Contact_Us.html">Contact</a>
-			</div>
-			
-			<div class="float">
-				<a href="links.html">Links</a>
-			</div>
-			
-			<div class="float">
-				<a href="about_us.html">About</a>
-			</div>
-		</div>
+					<a class="links" href="https://www.facebook.com/kingsfordsmithscouts" target="blank">
+						<figure>
+							<img src="images/kingsford_smith_face.jpg" alt="Kingsford Smith Facebook">
+							<figcaption>Kingsford-Smith Facebook</figcaption>
+					  	</figure>
+					</a>
 
-		<div class="clear"></div>
+					<a class="links" href="https://www.flickr.com/photos/148525322@N05/albums" target="blank">
+						<figure>
+							<img src="images/kingsford_smith_fl.jpg" alt="Kingsford Smith Flickr photo gallery">
+							<figcaption>Kingsford-Smith Flickr photo gallery</figcaption>
+					  	</figure>
+					</a>
 
-		<div id="main">
-			<div class="linkcontainer">
-			
-			<h2>Links</h2>
-			<p>Here are a few useful websites and resources.</p>
-			<br/>
-			<br/>
-			
-			<div class="clear"></div>
-			
-			<a href="http://www.youtube.com/c/KingsfordsmithOrgAuScouts" target="new"><img id="badge" src="images/kingsford_smith_youtube.jpg" style="margin-top: -0.7em; margin-right: -0.95em; height: 6em"></a>
-			<h3>Kingsford Smith Youtube channel</h3>
-			<p><a href="http://www.youtube.com/c/KingsfordsmithOrgAuScouts" target="new">www.youtube.com/c/KingsfordsmithOrgAuScouts</a></p>
-			<br/>
-			<br/>
-			<br/>
-			
-			<a href="http://www.facebook.com/kingsfordsmithscouts" target="new"><img id="badge" src="images/kingsford_smith_facebook2.jpg" style="margin-top: -0.7em; margin-right: -0.95em; height: 6em"></a>
-			<h3>Kingsford Smith Scout Group Facebook page</h3>
-			<p><a href="http://www.facebook.com/kingsfordsmithscouts" target="new">www.facebook.com/kingsfordsmithscouts</a></p>
-			<br/>
-			<br/>
-			<br/>
-			
-			<div class="clear"></div>
-			
-			<a href="http://www.southmetscouts.com/" target="new"><img id="badge" src="images/southmetregionbadge.jpg" style="margin-top: -1.5em"></a>
-			<h3>South Metropolitan Region Scouts website</h3>
-			<p><a href="http://www.southmetscouts.com/" target="new">www.southmetscouts.com</a></p>
-			<br/>
-			<br/>
-			<br/>
+					<a class="links" href="https://groups.caremonkey.com/users/sign_in?no_redirect" target="blank">
+						<figure>
+							<img src="images/careMonkey.png" alt="Care Monkey">
+							<figcaption>Care Monkey <span style="font-size: 0.8em">- online portal for Scout permission forms</span></figcaption>
+					  	</figure>
+					</a>
 
-			<div class="clear"></div>
-			
-			<a href="http://www.nsw.scouts.com.au/" target="new"><img id="badge" src="images/scouts_australia_nsw.jpg" style="margin-right: 0.7em; margin-top: -1em"></a>
-			<h3>New South Wales Scouts website</h3>
-			<p><a href="http://www.nsw.scouts.com.au/" target="new">www.nsw.scouts.com.au</a></p>
-			<br/>
-			<br/>
-			<br/>
-			
-			<div class="clear"></div>
-			
-			<a href="http://www.scouts.com.au/" target="new"><img id="badge" src="images/header/scouts_icon.png" style="margin-top: -1.5em; padding-right: 0.7em"></a>
-			<h3>Scouts Australia website</h3>
-			<p><a href="http://www.scouts.com.au/" target="new">www.scouts.com.au</a></p>
-			<br/>
-			<br/>
-			<br/>
-			
-			<div class="clear"></div>
-			
-			<a href="https://scoutshop.com.au/" target="new"><img id="badge" src="images/Scout_Shop.jpg" style="margin-top: 0.5em; margin-right: -3.75em; height: 3em"></a>
-			<h3>Scout Shop <span style="font-size: 0.8em">- Online Scout-related shopping.</span></h3>
-			<p><a href="https://scoutshop.com.au/" target="new">scoutshop.com.au</a></p>
-			<br/>
-			<br/>
-			<br/>
-			
-			<div class="clear"></div>
-			
-			<a href="http://rosebayrovers.org.au/" target="new"><img id="badge" src="images/rosebay_crew_logo.png" style="margin-top: -1.5em; padding-right: 0.5em"></a>
-			<h3>Rose Bay Rovers <span style="font-size: 0.8em">- Our associated Rover Crew</span></h3>
-			<p><a href="http://rosebayrovers.org.au/" target="new">rosebayrovers.org.au</a></p>
-			<br/>
-			<br/>
-			<br/>
-		
-			<div class="clear"></div>
-			
-			<a href="http://coogeerovers.org.au/" target="new"><img id="badge" src="images/crew_logo.png" style="margin-top: -1.5em; margin-right: -0.67em; padding-top: 1em"></a>
-			<h3>Coogee Rovers</h3>
-			<p><a href="http://coogeerovers.org.au/" target="new">coogeerovers.org.au</a></p>
-			<br/>
-			<br/>
+					<a class="links" href="http://resource.scouts.com.au/leader-resources/scouts-oz-app" target="blank">
+						<figure>
+							<img src="images/Scout_Oz_app.png" alt="Scouts Oz app">
+							<figcaption>Scouts Oz app <span style="font-size: 0.8em">- for Android and Iphone</span></figcaption>
+					  	</figure>
+					</a>
 
-			</div>
-        </div>
+					<a class="links" href="https://www.southmetscouts.com/" target="blank">
+						<figure>
+							<img src="images/southmetregionbadge.jpg" alt="South Metropolitan Region Scouts">
+							<figcaption>South Metropolitan Region Scouts</figcaption>
+					  	</figure>
+					</a>
 
-		<div class="clear"></div>
-		
-		<div class="footer">
-			<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
-		</div>    
+					<a class="links" href="https://www.nsw.scouts.com.au/" target="blank">
+						<figure>
+							<img src="images/scouts_australia_nsw.jpg" alt="Scouts New South Wales">
+							<figcaption>Scouts NSW</figcaption>
+					  	</figure>
+					</a>
+
+					<a class="links" href="https://www.scouts.com.au/" target="blank">
+						<figure>
+							<img src="images/header/scouts_icon.png" alt="Scouts Australia">
+							<figcaption>Scouts Australia</figcaption>
+					  	</figure>
+					</a>
+
+					<a class="links" href="https://scoutshop.com.au/" target="blank">
+						<figure>
+							<img src="images/Scout_Shop.jpg" alt="Scout Shop">
+							<figcaption>Scout Shop <span style="font-size: 0.8em">- Online Scout-related shopping</span></figcaption>
+					  	</figure>
+					</a>
+
+					<a class="links" href="https://kingsfordventurers.org.au/" target="blank">
+						<figure>
+							<img src="images/kv_logo.png" alt="Kingsford Venturers">
+							<figcaption>Kingsford Venturers <span style="font-size: 0.8em">- Our associated Venturer Unit</span></figcaption>
+					  	</figure>
+					</a>
+
+					<a class="links" href="https://rosebayrovers.org.au/" target="blank">
+						<figure>
+							<img src="images/rosebay_crew_logo.png" alt="Rose Bay Rovers">
+							<figcaption>Rose Bay Rovers <span style="font-size: 0.8em">- Our associated Rover Crew</span></figcaption>
+					  	</figure>
+					</a>
+
+					<a class="links" href="https://coogeerovers.org.au/" target="blank">
+						<figure>
+							<img src="images/crew_logo.png" alt="Coogee Rovers">
+							<figcaption>Coogee Rovers</figcaption>
+					  	</figure>
+					</a>
+
+				</div>
+
+        	</div>
+
+			<footer>
+				<p>&copy;2012 Kingsford Smith Scout Group, Scouts Australia NSW</p>
+			</footer>
+		</main>   
 		
 	</body>
 </html>
