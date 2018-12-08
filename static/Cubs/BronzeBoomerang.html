@@ -46,8 +46,15 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav nav-fill w-100 align-items-start">
-						<li class="nav-item">
-							<a class="nav-link" href="../index.html">Home</a>
+						<li id="homenav" class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="../index.html">Try Scouts</a>
+								<a class="dropdown-item" href="../Home/scouting.html">What is Scouting?</a>
+								<a class="dropdown-item" href="../Home/uniform.html">Uniform</a>
+								<a class="dropdown-item" href="../Home/caremonkey.html">Care Monkey</a>
+								<a class="dropdown-item" href="../Home/committee.html">Committee</a>
+							</div>
 						</li>
 						<li id="joeynav" class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Joeys</a>
@@ -107,12 +114,11 @@
 				
 				<p>The Boomerang Award is structured on an age basis. The first is the Bronze Boomerang for 8 year olds. Each Boomerang level consists of 14 parts. For each Boomerang level, the first 7 sections must all be completed and then the Cub may choose any 3 of sections 8-14.  Sections can be completed in any order, except for number 7 - Promise and Law - which must be completed last and signed off by the Cub Scout Leader.</p>
 
-				<div class="twocolumn">
-
-					<div class="firstcolumn">
-
+				<img id="boomerang" class="bdg" src="../images/badges/medium_boomerang_bronze.jpg">
+				
+				<div class="flex-container" style="justify-content: space-around">
+					<div>
 						<p> Compulsory tests:</p>
-						
 						<ol>
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1444/bronze-healthfirstaid.pdf" target="blank">Health First Aid</a></li>
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1451/bronze-safety.pdf" target="blank">Safety</a></li>
@@ -122,9 +128,10 @@
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1455/bronze-symbolsofaustralia.pdf" target="blank">Symbols Of Australia</a></li>
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1449/bronze-promiselaw.pdf" target="blank">Promise and Law</a></li>
 						</ol>
-							
-						<p>And complete 3 of the following tests:</p>
+					</div>
 
+					<div>
+						<p>Plus any 3 of the following:</p>
 						<ol start="8">
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1442/bronze-fitness.pdf" target="blank">Fitness</a></li>
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1448/bronze-peoplecultures.pdf" target="blank">People and Cultures</a></li>
@@ -135,10 +142,9 @@
 							<li><a href="https://docs.google.com/viewerng/viewer?url=https://scoutsvictoria.com.au/media/1456/bronze-yourcommunity.pdf" target="blank">Your Community</a></li>
 						</ol>
 					</div>
-
-					<img id="boomerang" class="bdg" src="../images/badges/medium_boomerang_bronze.jpg">
-					
 				</div>
+
+				<br>
 
 				<p>For some help with the tests, please refer to <a href="http://cubstuff.info/boomerangs.htm" target="blank">cubstuff.info</a>.</p>
 			</div>

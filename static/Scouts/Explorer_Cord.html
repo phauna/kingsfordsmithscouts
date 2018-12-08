@@ -46,8 +46,15 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav nav-fill w-100 align-items-start">
-							<li class="nav-item">
-								<a class="nav-link" href="../index.html">Home</a>
+							<li id="homenav" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../index.html">Try Scouts</a>
+                                    <a class="dropdown-item" href="../Home/scouting.html">What is Scouting?</a>
+									<a class="dropdown-item" href="../Home/uniform.html">Uniform</a>
+									<a class="dropdown-item" href="../Home/caremonkey.html">Care Monkey</a>
+									<a class="dropdown-item" href="../Home/committee.html">Committee</a>
+								</div>
 							</li>
 							<li id="joeynav" class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Joeys</a>
@@ -104,14 +111,14 @@
 				<div class="scouts well">
 
 					<h3>Explorer Badge - Knowlege and Skill</h3>
-					<img class="bigbadge scoutbadge" id="otherbadge" src="../images/badges/medium_explorer.jpg" style="transform: none">
+					<img id="otherbadge" src="../images/badges/medium_explorer.jpg" style="transform: none">
 				
 					<p>The are 8 Target Badges that provide the main source of program material and aim to encourage participation and develop basic skills. 
 					The first of these is the Explorer Cord.</p>
 					
 					<p>To earn your Explorer badge you must complete the two compulsory Target badges:</p>
 					
-					<div class="badgebox badgesleft">
+					<div class="badgebox" style="max-width: 30em">
 						<a href="https://docs.google.com/viewerng/viewer?url=http://www.scouts.sa.scouts.com.au/sd-images/730081" target="blank"><img class="bigbadge scoutbadge" src="../images/badges/medium_camp-blue.jpg"></a>
 						<a href="https://docs.google.com/viewerng/viewer?url=http://kingsfordsmith.org.au/files/Citizenship_Explorer.pdf" target="blank"><img class="bigbadge scoutbadge" src="../images/badges/medium_citiz-blue.jpg"></a>	
 					</div>
@@ -119,7 +126,7 @@
 
 					<p>And complete one of the six elective Target badges:</p>
 							
-					<div class="badgebox badgesleft">
+					<div class="badgebox" style="max-width: 50em">
 						<a href="https://docs.google.com/viewerng/viewer?url=http://www.scouts.sa.scouts.com.au/sd-images/730080" target="blank"><img class="bigbadge scoutbadge" src="../images/badges/medium_air-blue.jpg"></a>
 						<a href="https://docs.google.com/viewerng/viewer?url=http://www.scouts.sa.scouts.com.au/sd-images/730083" target="blank"><img class="bigbadge scoutbadge" src="../images/badges/medium_construct-blue.jpg"></a>
 						<a href="https://docs.google.com/viewerng/viewer?url=http://www.scouts.sa.scouts.com.au/sd-images/730084" target="blank"><img class="bigbadge scoutbadge" src="../images/badges/medium_emerge-blue.jpg"></a>
@@ -133,7 +140,7 @@
 					<img class="scoutbadge" src="../images/badges/medium_Cord_Blue.jpg" style="transform: none">
 
 					<p>To receive your Explorer Cord you must earn your Explorer badge, two <a href="../Scouts/Scouts_Proficiency.html">Proficiency badges</a> and 
-					one <a href="../Scouts/Scouts_Other_Badges.html">Patrol Activity badge.</a>
+					one <a href="../Other_Badges.html#patrol">Patrol Activity badge.</a>
 						
 				</div>
         

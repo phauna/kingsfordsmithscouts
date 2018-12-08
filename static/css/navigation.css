@@ -1,4 +1,3 @@
-
 .navbar {
 	background-color: #412213;
 	padding: 0;
@@ -20,6 +19,8 @@
 	margin-top: 0;
 	padding-top: 0;
 	padding-bottom: 0;
+	border: none;
+	border-radius: 0;
 }
 
 .navbar-nav > li > .dropdown-menu a {
@@ -30,6 +31,10 @@
 .navbar-nav > li > .dropdown-menu a:hover {
 	background-color: white !important;
 	color: #412213;  
+}
+
+#homenav > .dropdown-menu {
+	background-color: #412213;
 }
 
 #joeynav > .dropdown-menu { 
