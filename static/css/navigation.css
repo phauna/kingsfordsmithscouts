@@ -10,8 +10,8 @@
 	text-decoration: none;
 }
 
-.nav-link:hover {
-	background-color: white !important;
+.nav-link:hover, .navbar-nav > li > .dropdown-menu a:hover {
+	background-color: #dad5d3 !important;
 	color: #412213 !important; 
 }
 
@@ -28,16 +28,11 @@
 	text-decoration: none;
 }
 
-.navbar-nav > li > .dropdown-menu a:hover {
-	background-color: white !important;
-	color: #412213;  
-}
-
 #homenav > .dropdown-menu {
 	background-color: #412213;
 }
 
-#joeynav > .dropdown-menu { 
+#joeynav > .dropdown-menu  { 
 	background-color: #B65518; 
 }
 
@@ -73,8 +68,15 @@
 	background-color: green;
 }
 
-@media (max-width: 992px) {
-	.navbar ul {
-		padding-left: 2em;
+@media (max-width: 991px) {
+
+	.navbar ul li {
+		width: 100%;
 	}
+
+	.dropdown-item {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
 }

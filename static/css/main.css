@@ -76,7 +76,7 @@ strong {
 }
 
 .well p {
-	text-indent: 1em;
+	text-indent: 0.7em;
 	margin-bottom: 0.2em;
 }
 
@@ -252,7 +252,7 @@ footer p {
 }
 
 .bigbadge {
-	height: 10em;
+	height: 9em;
 }
 
 .smallbadge {
@@ -283,10 +283,20 @@ footer p {
 
 .proficiency {
 	height: 7em;
+	margin: 1.3em;
+}
+
+.achievement {
+	height: 7em;
+	margin: 1em;
+}
+
+.specialinterest {
+	height: 8em;
 	margin: 2em;
 }
 
-.proficiency:hover, .scoutbadge:hover, .bigbadge:hover, .smallbadge:hover {
+.proficiency:hover, .scoutbadge:hover, .bigbadge:hover, .smallbadge:hover, .achievement:hover, .specialinterest:hover {
 	transform: scale(1.1);
 }
 
@@ -431,6 +441,11 @@ figcaption {
 		font-size: 0.9em;
 	}
 
+	.achievement {
+		height: 7em;
+		margin: 0.7em;
+	}
+
 	header {
 		padding: 0 0.5em;
 	}
@@ -442,4 +457,11 @@ figcaption {
 	footer p {
 		font-size: 0.7em;
 	}
+
+	#ytplayerContainer {
+		padding-bottom: 70%;
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
+	}
+
 }
